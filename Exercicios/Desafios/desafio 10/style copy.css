@@ -1,0 +1,129 @@
+@font-face {
+    font-family: andrid;
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    margin: 0px;
+    background-color: #e8e5c2;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #2ba461, #043C1C);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.425);
+}
+
+header > p {
+    width: 450px;
+    margin: auto;
+}
+
+nav {
+    text-align: left;
+    margin-top: 20px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+nav > a:hover {
+    background-color: #2EA064;
+    border-radius: 5px;
+} 
+
+section {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section > article {
+    border-radius: 0 px 0px 10px 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+article > h2 {
+    color: #043C1C;
+    font-family: andrid;
+    padding: 15px;
+    margin: 0;
+}
+
+article > h3{
+    background-image: linear-gradient(to right, #8EDEB1, #FAFFFB);
+    color: #043C1C;
+    font-family: andrid;
+    padding-left: 15px;
+    margin-left: 15px;
+}
+
+article > p {
+    text-align: justify;
+    margin: 1px 15px;
+    text-indent: 35px;
+}
+
+article > p > a {
+    background-color: #8EDEB1;
+    padding: 1px 10px;
+    text-decoration: none;
+    color: #043C1C;
+    font-weight: 900;
+}
+
+article > p > a:hover{
+    text-decoration: underline;
+}
+
+article > p > a::after {
+    content: ' &';
+}
+
+img{
+    margin: 50px;
+}
+
+div#video {
+    background-color: #043C1C;
+    margin-top: 20px;
+}
+
+iframe {
+    margin: 20px 50px;
+}
+
+div#final {
+    border-radius: 10px;
+    margin: 10px;
+    padding-bottom: 10px;
+    background-color: #81E2AB;
+}
+
+div#final > h3 {
+    border-radius: 10px 10px 0px 0px ;
+    background-color: #175C34;
+    padding: 10px;
+    color: white;
+}
+
+div#final > p {
+    text-indent: 50px;
+}
+
+footer {
+    background-color: #032813;
+    margin: 0px;
+    padding: 4px;
+    text-align: center;
+    color: white;
+}
